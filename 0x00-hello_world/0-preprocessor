@@ -1,2 +1,2 @@
 #!/bin/bash\n
-export $CFILE=0-preprocessor main.c
+STORE=$(echo $CFILE | tr .c .o) && gcc -c $CFILE -o $STORE
