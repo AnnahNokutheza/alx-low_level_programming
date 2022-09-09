@@ -1,2 +1,2 @@
 #!/bin/bash\n
-gcc -E $CFILE -o main.c
+export $CFILE=0-preprocessor main.c
