@@ -9,7 +9,6 @@ int main(void)
 {
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	puts("\"Programming is like building a multingual puzzle");
 return (0);
 }
