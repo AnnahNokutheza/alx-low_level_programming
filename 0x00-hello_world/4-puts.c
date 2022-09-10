@@ -9,6 +9,6 @@ int main(void)
 {
 
 	srand(time(0));
-	puts("\"Programming is like building a multingual puzzle);
+	puts("\"Programming is like building a multingual puzzle\n");
 return (0);
 }
