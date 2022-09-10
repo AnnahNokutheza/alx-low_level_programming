@@ -9,6 +9,6 @@ int main(void)
 {
 
 	srand(time(0));
-	printfo("with proper grammar, but the outcome is a piece of art,");
+	printfo(" with proper grammar, but the outcome is a piece of art,");
 return (0);
 }
