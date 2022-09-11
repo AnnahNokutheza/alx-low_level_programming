@@ -3,12 +3,12 @@
 /**
  * main - print if the number is positive, zero, or negative
  *
- * Return: 0
+ * Return: Alaways 0 (Success)
  */
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	char low;
+	for (low = 'a' ; low <= 'z' ; low++)
 
 		        putchar(ch);
 	                putchar("\n");
