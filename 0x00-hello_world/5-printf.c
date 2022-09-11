@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * Description: main - Prints out a string to stdout.
  * Return: 0 if success
