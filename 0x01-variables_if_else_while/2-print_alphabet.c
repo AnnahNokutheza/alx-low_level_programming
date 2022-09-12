@@ -8,13 +8,11 @@
  */
 int main(void)
 {
-	srand(time(0));
+	char ch;
 
-	char low;
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-	for (low = 'a'; low <= 'z'; low++)
-
-	putchar(low);
-	printf('\n');
+	putchar(ch);
+putchar('\n')`
 return (0);
 }
