@@ -1,19 +1,19 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
-* main - Entry point
-*
-* Description: various computer sizes
-* 
-* Return: 0
-*/
-int main(void)
-{
+ * main - Entry point
+ *
+ * Return: 0
+ */
 
+int main(void)
+
+{
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of an int: %d byte(s)\n", sizeof(int));
 printf("Size of a long int: %d byte(s)\n", sizeof(long int));
 printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-printf("Size of a float: %d byte(s)\n", sizeof(float));
-return (o);
- }
+printf("Size of a float: %d byte(s)\n", sizeof(floa));
+return (0);
+}
