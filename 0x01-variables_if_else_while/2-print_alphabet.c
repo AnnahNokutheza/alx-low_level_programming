@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ * main - lowercase alphabets
+ *
+ * Return: Always (Success)
+ */
+int main(void)
+{
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+
+	putchar (c);
+	putchar ('\n');
+return (0);
+}
