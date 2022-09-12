@@ -10,11 +10,11 @@ int main(void)
 {
 	srand(time(0));
 
-	char (char);
+	char low;
 
-	for (char = 'a'; char <= 'z'; c++)
+	for (low = 'a'; low <= 'z'; low++)
 
-	putchar (c);
-	putchar ('\n');
+	putchar(low);
+	printf('\n');
 return (0);
 }
