@@ -10,9 +10,9 @@ int main(void)
 {
 	srand(time(0));
 
-	char`;
+	char (char);
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (char = 'a'; char <= 'z'; c++)
 
 	putchar (c);
 	putchar ('\n');
