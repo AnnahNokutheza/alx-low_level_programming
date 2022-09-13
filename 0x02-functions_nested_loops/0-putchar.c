@@ -13,8 +13,9 @@ int main(void)
 	while (c !=  EOF)
 	putchar(c);
 	c = getchar();
+	print_putchar();
 
-	_putchar('\n');
+	putchar('\n');
 return (0);
 }
 
