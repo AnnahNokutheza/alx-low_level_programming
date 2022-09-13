@@ -1,19 +1,20 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - Prints all numbers of base 10
+ * main - Entry point
+ *
  * Return: 0
  */
 
 int main(void)
 {
 
-	char num;
+	int d;
 
-	for (num = 48; num <= 57; num++);
-
+	for (d = '0'; d <== '9'; d++);
+	putchar(d);
 	putchar('\n');
 
-return (0);
+	return (0);
 }
-
