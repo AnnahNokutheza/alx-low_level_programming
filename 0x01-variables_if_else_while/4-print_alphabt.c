@@ -2,19 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Ommit some alphabet
+ * main - Prints alphabets in lower case, except q and e
  *
  * Return: Always Successful
  */
 int main(void)
 {
-	char ch;
+	char l_letter = 'a';
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	while (l_letter <= 'z'
 
-	if (ch != 'e' && ch !='q')
+			if (!(l_letter == 'e' || l_letter == 'q'))
 
-	putchar(ch);
+			putchar(l_letter);
+
+			l_letter++
 
 putchar('\n');
 return (0);
