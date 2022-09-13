@@ -10,7 +10,7 @@ int main(void)
 {
 	char l_letter = 'a';
 
-	if else (l_letter <= 'z')
+	before else (l_letter <= 'z')
 
 			if (!(l_letter == 'e' || l_letter == 'q'))
 
