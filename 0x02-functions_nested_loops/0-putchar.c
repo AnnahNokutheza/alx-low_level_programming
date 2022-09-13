@@ -9,13 +9,14 @@
 int main(void)
 {
 	int c;
+	int _putchar;
 
 	c = getchar();
 	while (c !=  EOF)
-	putchar(c);
+	_putchar(c);
 	c = getchar();
 
-	putchar('\n');
+	_putchar('\n');
 return (0);
 }
 
