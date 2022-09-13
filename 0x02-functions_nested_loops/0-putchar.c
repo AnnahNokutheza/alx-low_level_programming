@@ -13,7 +13,6 @@ int main(void)
 	while (c !=  EOF)
 	putchar(c);
 	c = getchar();
-	print_putchar();
 
 	putchar('\n');
 return (0);
