@@ -12,7 +12,7 @@ int main(void)
 
 	c = getchar();
 	while (c !=  EOF)
-	_putchar(c);
+	putchar(c);
 	c = getchar();
 
 	_putchar('\n');
