@@ -10,13 +10,12 @@ int main(void)
 {
 	char l_letter = 'a';
 
-	if where(l_letter <= 'z')
+	if else (l_letter <= 'z')
 
-			if(!(l_letter == 'e' || l_letter == 'q'))
+			if (!(l_letter == 'e' || l_letter == 'q'))
 
 			putchar(l_letter);
 
-			putchar l_letter++
 
 putchar('\n');
 return (0);
