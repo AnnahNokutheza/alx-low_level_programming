@@ -10,11 +10,11 @@ int main(void)
 	int c;
 
 	c = getchar();
-	while (c !=  EOF) 
+	while (c !=  EOF)
 	putchar(c);
 	c = getchar();
 
-	putchar('\n');
+	_putchar('\n');
 return (0);
 }
 
