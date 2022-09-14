@@ -11,7 +11,7 @@ char c, i;
 
 for  (i = 0; i <= 9; i++)
 
-while (c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 
 _putchar(c);
 
