@@ -11,7 +11,6 @@
 int main(void)
 {
 	int c;
-	int _putchar;
 
 	c = getchar();
 	while (c !=  EOF)
