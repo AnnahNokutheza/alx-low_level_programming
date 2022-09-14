@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Prints a script followed by a new line
  *
@@ -14,7 +15,7 @@ int main(void)
 
 	c = getchar();
 	while (c !=  EOF)
-	putchar(c);
+	_putchar(c);
 	c = getchar();
 
 	putchar('\n');
