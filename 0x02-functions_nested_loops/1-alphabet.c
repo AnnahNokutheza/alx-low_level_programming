@@ -1,13 +1,17 @@
 #include "main.h"
 
 /**
- * main - entry point to the program
+ * print_alphabet - function to print abd
  *
- * Return: lowercase alphabet
+ * Return: 0
  */
-int main(void)
+void print_alphabet(void)
+{
+	char c;
+	for (c = 'a'; c <= 'z'; c++);
 
- int print_aphabet();
- putchar('\n');
+	_putchar(c);
+
+ _putchar('\n');
  return (0);
  }
