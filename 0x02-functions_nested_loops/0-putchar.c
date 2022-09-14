@@ -5,13 +5,12 @@
 /**
  * main - Prints a script followed by a new line
  *
- * Return: 0
+ * Return: Always success
  *
  */
 
 int main(void)
 {
-	void print_times_table(intn);
 	int c;
 
 	c = getchar();
