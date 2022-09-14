@@ -11,6 +11,7 @@
 
 int main(void)
 {
+	void print_times_table(intn);
 	int c;
 
 	c = getchar();
