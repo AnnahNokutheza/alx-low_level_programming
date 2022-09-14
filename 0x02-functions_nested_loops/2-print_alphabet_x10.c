@@ -2,21 +2,21 @@
 /**
  * print_alphabet_x10 - function to print abc 10 times
  *
- * Return: 0
+ * Return: Always success
  */
 void print_alphabet_x10(void)
 {
 
-int n, co;
-co = 0;
+char c, i;
 
-while (co < 10)
+for  (i = 0; i <= 9; i++)
 
-for (n = 'a'; n <= 'z'; n++)
+while (c = 'a'; c <= 'z'; c++)
 
-_putchar(co);
+_putchar(c);
 
-co++;
+i++;
+c++;
 
 _putchar('\n');
 
