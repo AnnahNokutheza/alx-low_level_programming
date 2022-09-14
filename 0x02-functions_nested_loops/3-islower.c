@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *int _islower(int c)
- * @c: is the int that will use for the argumet of the function
- * Return: 0
+ *_islower - checks for lowercase
+ * .@/c: c is an ascill character
+ * Return: 1 if c is lowercase, 0 otherrwise
  */
 int _islower(int c)
 {
