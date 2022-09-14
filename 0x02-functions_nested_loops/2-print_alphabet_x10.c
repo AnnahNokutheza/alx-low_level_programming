@@ -14,12 +14,10 @@ while (co < 10)
 
 for (n = 'a'; n <= 'z'; n++)
 
-_putchar(c);
+_putchar(co);
 
 co++;
 
 _putchar('\n');
-
-}
 
 }
