@@ -2,11 +2,13 @@
 /**
  * _abs - computes the absolute value of an integer
  * 
- * @ab: input letrer
+ * @c: input letrer
  * Return: Always successs
  */
-int _abs(int c)
+int _abs(int)
 {
+
+	int c;
 
 if (c > 0 || c == 0)
 {
