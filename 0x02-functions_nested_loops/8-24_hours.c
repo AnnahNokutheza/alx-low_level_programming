@@ -9,7 +9,7 @@ void jack_bauer(void)
 {
 
 	int hours = 0;
-	int minutes = o;
+	int minutes = 0;
 	int hours_reminder;
 	int mins_reminder;
 
@@ -17,17 +17,17 @@ void jack_bauer(void)
 	{
 	while (minutes <= 59)
 	{
-av
+
 		hours_reminder = hours % 10;
 		_putchar(hours / 10 + '0';
-		_putchar(hours_reminder + ('0')
+		_putchar(hours_reminder + ('10')
 		_puchar(':');
 		_putchar(minutes /10 + '0');
 		_putchar(mins_reminder + '0');
 		minutes++
-		_putchar('\n);
+		_putchar('\n');
 	
 	}
 	hours++;
 	minutes = 0;
-
+}
