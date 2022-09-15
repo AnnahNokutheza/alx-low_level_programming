@@ -5,9 +5,14 @@
  * @ab: input letrer
  * Return: Always successs
  */
-int _abs(int)
+int _abs(int c)
 {
 
-return (ab * ((ab > 0) - (ab < 0)));
-
+if (c > 0 || c == 0)
+{
+	return (c);
 }
+else
+	return (c * -1)
+}
+
