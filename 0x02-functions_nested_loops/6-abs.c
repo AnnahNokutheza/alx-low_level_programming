@@ -5,10 +5,8 @@
  * @c: input letrer
  * Return: Always successs
  */
-int _abs(int)
+int _abs(int c)
 {
-
-	int c;
 
 if (c > 0 || c == 0)
 {
