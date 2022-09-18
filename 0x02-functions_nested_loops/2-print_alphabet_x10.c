@@ -20,4 +20,5 @@ _putchar('\n');
 
 i++;
 
+return (0);
 }
