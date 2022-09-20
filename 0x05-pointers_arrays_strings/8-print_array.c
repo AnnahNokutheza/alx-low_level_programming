@@ -1,8 +1,8 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * prints_array - Prints n elements of an array of integers
+ * print_array - Prints n elements of an array of integers
  * @a:Array of integers
  * @n:Number of elements of the array to be printed
  *
