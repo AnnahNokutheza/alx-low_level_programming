@@ -2,32 +2,28 @@
 
 /**
  * rev_string - Reverses a string
- * @s: The string to be modified
+ * @s: pointer to string
  *
  * Return: void
  */
 void rev_string(char *s)
 {
-	int i, c, k;
+	int i, j, k, temp;
 	char *a, aux;
 
-	a = s;
+	i = 0;
 
-	while (s[c] != '\0')
+	while (s[i] != '\0')
 	{
-		c++;
+		i++;
 	}
 
-	for (k = 1; k < c; k++)
+	while (k < j)
 	{
-		a++;
-	}
-
-	for (i = 0; i < (c / 2); i++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+		temp = s[k];
+		s[k] = s[j];
+		s[j] = temp;
+		k++;
+		j--;
 	}
 }
