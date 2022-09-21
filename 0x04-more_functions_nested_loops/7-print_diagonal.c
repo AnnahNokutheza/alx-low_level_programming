@@ -8,6 +8,7 @@
  */
 void print_diagonal(int n)
 {
+	int n;
 	int a, b;
 
 	if (size <= 0)
