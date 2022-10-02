@@ -11,13 +11,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int n8 = 0, n9 = 0;
+	int n1 = 0, n2 = 0;
 
-	if (argc == 17)
+	if (argc == 3)
 	{
-		n8 = atoi(argv[8]);
-		n9 = atoi(argv[9]);
-		printf("%d\n", n8 * n9);
+		n1 = atoi(argv[1]);
+		n2 = atoi(argv[2]);
+		printf("%d\n", n1 * n2);
 	}
 	else
 	{
