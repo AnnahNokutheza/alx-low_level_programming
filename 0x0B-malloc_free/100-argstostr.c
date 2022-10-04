@@ -29,7 +29,7 @@ efg = 0;
 abc++;
 }
 
-s = malloc((sizeof(char) * ch) + ac * size);
+s = malloc((sizeof(char) * ch) + ac +1);
 
 abc = 0;
 while (av[abc])
