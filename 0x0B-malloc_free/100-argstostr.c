@@ -11,41 +11,41 @@
  */
 char *argstostr(int ac, char **av)
 {
-int ch = 0, i = 0, j = 0, k = 0;
+int ch = 0, abc = 0, efg = 0, k = 0;
 char *s;
 
 if (ac == 0 || av == NULL)
 return (NULL);
 
-while (i < ac)
+while (abc < ac)
 {
-while (av[i][j])
+while (av[abc][efg])
 {
 ch++;
-j++;
+efg++;
 }
 
-j = 0;
-i++;
+efg = 0;
+abc++;
 }
 
 s = malloc((sizeof(char) * ch) + ac +1);
 
-i = 0;
-while (av[i])
+abc = 0;
+while (av[abc])
 {
-while (av[i][j])
+while (av[abc][efg])
 {
-s[k] = av[i][j];
+s[k] = av[abc][efg];
 k++;
-j++;
+efg++;
 }
 
 s[k] = '\n';
 
-j = 0;
+efg = 0;
 k++;
-i++;
+abc++;
 }
 
 k++;
