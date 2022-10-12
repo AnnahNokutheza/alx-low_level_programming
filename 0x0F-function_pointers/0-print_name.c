@@ -19,5 +19,5 @@ void print_name(char *name, void (*f)(char *));
 	scanf("%s", &last_name);
 	printf("The name of the person is %s", first_name, last_name);
 
-	return(0);
+	return (0);
 }
