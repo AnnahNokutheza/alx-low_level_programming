@@ -1,9 +1,9 @@
 /**
- *  print_name - Prints a name
- *  @name: pointer to name
- *  @f: function to pointer
+ * prints_name - prints a name
+ * @name: pointer to name
+ * @f: function to pointer
  *
- *  Return: void
+ * Return: void
  */
 void print_name(char *name, void (*f)(char *))
 {
