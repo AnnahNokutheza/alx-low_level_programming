@@ -1,5 +1,5 @@
 /**
- * prints_name - prints a name
+ * prints_name - function that prints a name
  * @name: pointer to name
  * @f: function to pointer
  *
