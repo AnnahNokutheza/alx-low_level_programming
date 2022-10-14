@@ -11,6 +11,6 @@ void print_all(const char * const format, ...);
 void print_a_char(char *separator, va_list args);
 void print_a_integer(char *separator, va_list args);
 void print_a_float(char *separator, va_list args);
-void print_a_char_ptr(char *separator, va_list args) 
+void print_a_char_ptr(char *separator, va_list args); 
 
 #endif /*MAIN_H*/ 
