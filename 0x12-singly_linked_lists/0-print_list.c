@@ -4,7 +4,6 @@
 
 /**
   * print_list - Prints all elements of a list
-  * @str: String - (malloc'ed string)
   * @h: A linked list
   *
   * Return: The number of nodes
