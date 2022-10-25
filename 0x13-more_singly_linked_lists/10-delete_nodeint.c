@@ -11,8 +11,8 @@
   */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	unsigned int enumerate = 1;
-	listint_t *new = *head, *temp;
+	unsigned int enumerate = 1
+	listint_t *new = *head, *better;
 
 	if (!head || !*head)
 		return (-1);
