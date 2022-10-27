@@ -29,3 +29,19 @@ unsigned int binary_to_uint(const char *b)
 
 	return (sum);
 }
+
+/**
+  * _strlen - Returns the length of a string
+  * @s: String to count
+  *
+  * Return: String length
+  */
+int _strlen(const char *s)
+{
+	int c = 0;
+
+	while (s[c])
+		c++;
+
+	return (c);
+}
