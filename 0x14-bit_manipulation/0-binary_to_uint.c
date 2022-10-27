@@ -10,7 +10,7 @@
   */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int len = 0, enumerate = 0, sum = 0;
+	unsigned int len = 0, count = 0, sum = 0;
 
 	if (b == NULL)
 		return (0);
@@ -22,9 +22,9 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		if (b[len] == 49)
-			sum += 1 << enumerate;
+			sum += 1 << count;
 
-		enumerate++;
+		count++;
 	}
 
 	return (sum);
@@ -38,10 +38,10 @@ unsigned int binary_to_uint(const char *b)
   */
 int _strlen(const char *s)
 {
-	int abc = 0;
+	int c = 0;
 
-	while (s[abc])
-		abc++;
+	while (s[c])
+		c++;
 
-	return (abc);
+	return (c);
 }
