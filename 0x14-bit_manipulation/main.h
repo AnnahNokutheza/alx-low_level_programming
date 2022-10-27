@@ -1,5 +1,5 @@
-#ifndef _BIT_MANIPULATION                                                                                    #define _BIT_MANIPULATION 
-
+#ifndef _BIT_MANIPULATION
+#define _BIT_MANIPULATION 
 #include <stdarg.h>
 
 int _putchar(char c); 
